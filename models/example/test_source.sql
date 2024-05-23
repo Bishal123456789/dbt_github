@@ -1,0 +1,1 @@
+select c_custkey, c_mktsegment from snowflake_sample_data.tpch_sf1.customer;

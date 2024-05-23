@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: analytics  #just for reference, a name has been given, it can be different wrt to the source database
+    database: analytics #source database name present in snf
+    schema: amit_schema #source schema name present in snf
+    tables:
+      - name: customers #remember this name should be used in sources sql file to call / use the source table
+        identifier: customers #give the source table name which is present in snf
+
+      - name: orders    #remember this name should be used in sources sql file to call / use the source table
+        identifier: orders #give the source table name which is present in snf
